@@ -17,7 +17,7 @@ const Music = () => {
   return (
     <div style={{backgroundColor:"#c3c4c7"}}>
       <h3>React audio player</h3>
-      <audio ref = {audioRef} src='./src\assets\Koi-Itna-Khubsurat-Kaise-Ho-Sakta-Hai-Ringtone-RingRhythmic.com_.mp3'></audio>
+      <audio ref = {audioRef} src='src\assets\128-Khoobsurat - Stree 2 128 Kbps.mp3'></audio>
       <button onClick={playAudio}>Play</button>
       <button onClick={pauseAudio}>Pause</button>
       <input type = "range"
